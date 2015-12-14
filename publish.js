@@ -349,18 +349,18 @@ function linktoExternal(longName, name) {
  * @return {string} The HTML for the navigation sidebar.
  */
 function buildNav(members) {
-    var nav = '<h2><a href="index.html">Home</a></h2>';
+    var nav = '<h2><a href="index.html">é¦–é¡µ Home</a></h2>';
     var seen = {};
     var seenTutorials = {};
 
-    nav += buildMemberNav(members.classes, 'Àà Classes', seen, linkto);
-    nav += buildMemberNav(members.modules, 'Ä£¿é Modules', {}, linkto);
-    nav += buildMemberNav(members.externals, 'Íâ²¿ Externals', seen, linktoExternal);
-    nav += buildMemberNav(members.events, 'ÊÂ¼ş Events', seen, linkto);
-    nav += buildMemberNav(members.namespaces, 'ÃüÃû¿Õ¼ä Namespaces', seen, linkto);
-    nav += buildMemberNav(members.mixins, 'Mixins', seen, linkto);
-    nav += buildMemberNav(members.tutorials, 'ÊµÀı Tutorials', seenTutorials, linktoTutorial);
-    nav += buildMemberNav(members.interfaces, '½Ó¿Ú Interfaces', seen, linkto);
+    nav += buildMemberNav(members.classes, 'ç±»Classes', seen, linkto);
+    nav += buildMemberNav(members.modules, 'æ¨¡å— Modules', {}, linkto);
+    nav += buildMemberNav(members.externals, 'å¤–éƒ¨â²¿ Externals', seen, linktoExternal);
+    nav += buildMemberNav(members.events, 'äº‹ä»¶Events', seen, linkto);
+    nav += buildMemberNav(members.namespaces, 'å‘½åç©ºé—´ Namespaces', seen, linkto);
+    nav += buildMemberNav(members.mixins, 'æ··å…¥ Mixins', seen, linkto);
+    nav += buildMemberNav(members.tutorials, 'å®ä¾‹ Tutorials', seenTutorials, linktoTutorial);
+    nav += buildMemberNav(members.interfaces, 'æ¥å£ Interfaces', seen, linkto);
 
     if (members.globals.length) {
         var globalNav = '';
@@ -377,7 +377,7 @@ function buildNav(members) {
             nav += '<h3>' + linkto('global', 'Global') + '</h3>';
         }
         else {
-            nav += '<h3>Global</h3><ul>' + globalNav + '</ul>';
+            nav += '<h3>Global å…¨å±€</h3><ul>' + globalNav + '</ul>';
         }
     }
 
