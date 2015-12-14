@@ -1,5 +1,5 @@
 # Minami
-[½«¸ù¾İĞèÇó½¥½¥ÍêÉÆÖĞ...]
+[å°†æ ¹æ®éœ€æ±‚æ¸æ¸å®Œå–„ä¸­å“¦å“¦...ä¹Ÿè®¸ä¹Ÿæ²¡ä»€ä¹ˆæ”¹çš„...]
 
 A clean, responsive documentation template theme for JSDoc 3.
 
